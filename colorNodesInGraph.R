@@ -18,7 +18,7 @@ graph = graph(edges=c(1,2,2,3,3,4,4,5,2,5,3,5,2,4),directed=F)
 plot(graph) 
 
 colors = 1:4 # 4 colors allowed 
-nodes = length(init)
+nodes = 5
 init = rep(1,nodes) # initial colors are all identical 
 tau = 1
 stop = 1000 
