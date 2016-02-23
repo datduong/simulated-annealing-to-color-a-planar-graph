@@ -2,7 +2,7 @@
 
 A planar graph is a graph where 2 edges that cross, can be drawn so that they don’t cross.
 
-The coloring criteria requires that any neighboring nodes must have distinct color. 
+The coloring criteria requires that any neighboring nodes must have distinct colors. Neighboring nodes are nodes that have an edge between them. 
 
 It has been proven that this coloring scheme exists (with at least 4 colors) for any planar graph. This code provides an example of this case, and conducts a simulated annealing optimization procedure to find the coloring scheme. 
 
