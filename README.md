@@ -1,4 +1,4 @@
-# simulated-annealing-to-color-a-planar-graph
+# simulated annealing to color a planar graph
 
 A planar graph is a graph where 2 edges that cross, can be drawn so that they don’t cross.
 
