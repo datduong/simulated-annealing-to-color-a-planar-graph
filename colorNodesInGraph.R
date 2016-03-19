@@ -18,7 +18,7 @@ graph = graph(edges=c(1,2,2,3,3,4,4,5,2,5,3,5,2,4),directed=F) ## !! able to cha
 # are.connected(graph,1,2)
 plot(graph) 
 
-colors = 1:4 ##!! 4 colors allowed. ## also able to change this input into any number of colors
+colors = 1:4 ## !! 4 colors allowed. ## also able to change this input into any number of colors
 init = rep(1,nodes) # initial colors are all identical 
 
 tau = 1
