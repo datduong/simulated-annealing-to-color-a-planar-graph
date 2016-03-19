@@ -13,16 +13,16 @@ getPiValue = function (colors,graph){
 }
 
 library('igraph')
-graph = graph(edges=c(1,2,2,3,3,4,4,5,2,5,3,5,2,4),directed=F)
+nodes = 5
+graph = graph(edges=c(1,2,2,3,3,4,4,5,2,5,3,5,2,4),directed=F) ## !! able to change this input into any graph. 
 # are.connected(graph,1,2)
 plot(graph) 
 
-colors = 1:4 # 4 colors allowed 
-nodes = 5
+colors = 1:4 ##!! 4 colors allowed. ## also able to change this input into any number of colors
 init = rep(1,nodes) # initial colors are all identical 
+
 tau = 1
 stop = 1000 
-
 iter = 0
 while (iter < stop){
 	iter = iter + 1
