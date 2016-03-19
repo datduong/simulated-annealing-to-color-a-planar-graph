@@ -6,7 +6,7 @@ The coloring criteria requires that any neighboring nodes must have distinct col
 
 It has been proven that this coloring scheme exists (with at least 4 colors) for any planar graph. This code provides an example of this case, and conducts a simulated annealing optimization procedure to find the coloring scheme. 
 
-In general, such coloring scheme may not exist for any arbitrary graph. However, this code provides a backbone such that you can attain a near optimal coloring scheme for any graph (easy modification to the code is required).  
+In general, such coloring scheme may not exist for any arbitrary graph. However, this code provides a backbone such that you can attain a good enough coloring scheme for any graph (easy modification to the code is required).  
 
 # library
 
